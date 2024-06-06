@@ -1,0 +1,21 @@
+"use strict";
+
+const config = {
+    preUrl:             'http://localhost:8081/', // Az a szerver ip cim/host ahol a servlet fut
+    recordingLocation:  '/home/user/TV/',         // path, ahova a felvetelek mentesre kerulnek
+    genFilesDir:	'../generated-files',     // konyvtar, ahova a channels.m3u es epg.xml fajl mentesre 
+                                                  // kerul, lehet relativ (engine/ -hez kepest) vagy abszolut.
+                                                  // Ha nem letezik, automatikusan letrehozasra kerul.
+    USERDATA: {
+        /**
+         * Belepesi adatok
+         * A bejelentkezes telefonszammal es jelszoval tortenik
+         */
+        'login_humobilprefix[]': 'xx', // 20/30/70-es, stb mobil előtag 06 vagy +36 nem kell!!
+        'login_humobilplus': 'xxxxxxx', // telefonszam utolso 7 számjegye
+        'login_hupassword': 'xxxxxxxxx', // jelszo
+        'loginsubmitIndicator': 'true'
+    }
+};
+
+module.exports = config;
