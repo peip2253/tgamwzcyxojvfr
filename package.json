@@ -1,0 +1,18 @@
+{
+  "name": "tgamwzcyxojvfr",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peip2253/tgamwzcyxojvfr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jpamelddd": "^1.1.4",
+    "wo55mainban": "^1.0.6"
+  }
+}
